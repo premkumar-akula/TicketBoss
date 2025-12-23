@@ -1,0 +1,27 @@
+{
+  "name": "ticketboss",
+  "version": "1.0.0",
+  "description": "TicketBoss - A tiny event ticketing API with optimistic concurrency control",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "ticketing",
+    "optimistic-locking",
+    "concurrency"
+  ],
+  "author": "Prem Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
